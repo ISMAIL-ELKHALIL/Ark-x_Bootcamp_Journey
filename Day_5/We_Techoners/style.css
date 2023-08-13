@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 13%;
+    background-color: #2980B9;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+    background-color: green;
+    width: 20%;
+    height: 100%;
+
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    top: -50%;
+
+}
+
+a {
+    display: inline-block;
+    margin-left: 3%;
+    color: white;
+    font-size: 90%;
+}
+
+.main-container {
+    position: relative;
+    background-color: #2980B9;
+    width: 100%;
+    height: 80%;
+    top: 13%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    background-color: green;
+    width: 78%;
+    height: 100%;
+
+}
+
+.logo-container img,
+.image-container img,
+.plus-icon-container img,
+.minus-icon-container img,
+.instagram-icon-container img,
+.facebook-icon-container img,
+.twitter-icon-container img,
+.internet-icon-container img ,
+.arrow-right img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+.plus-icon-container {
+    position: relative;
+    left: 10%;
+    top: -55%;
+    width: 2%;
+    height: 10%;
+}
+
+.minus-icon-container {
+    position: relative;
+    left: 10%;
+    top: -85%;
+    width: 2%;
+    height: 10%;
+}
+
+.middle-container {
+    position: relative;
+    height: 50%;
+    width: 40%;
+    left: 55%;
+    top: -105%;
+}
+
+.middle-left-container {
+    position: relative;
+    opacity: 60%;
+    background-color: #2980B9;
+    width: 18%;
+    height: 100%;
+    margin: 0;
+}
+
+.middle-right-container {
+    padding: 10%;
+    position: relative;
+    background-color: whitesmoke;
+    width: 82%;
+    height: 100%;
+    left: 18%;
+    top: -100%;
+}
+
+.middle-right-container h2 {
+    margin-bottom: 5%;
+    color: gray;
+    font-weight: bolder;
+    text-decoration:line-through #2980B9 solid 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+
+}
+
+.middle-right-container p {
+    font-size: 85%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: grey;
+
+}
+
+.learn-more-container {
+    text-align: center;
+    position: relative;
+    background-color: #2980B9;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 40%;
+
+}
+
+.learn-more {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 50%;
+    top: 21%;
+    font-size: larger;
+
+}
+
+.arrow-right {
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 30%;
+    top: 28%;
+}
+
+.social-media-container {
+    position: relative;
+    width: 30%;
+    top: -46%;
+    left: 70%;
+
+}
+
+.social-media-container div {
+    display: inline-block;
+    width: 17%;
+    margin-left: 5px;
+
+}
+
+
+.footer-container {
+    position: relative;
+    display: inline-block;  
+    width: 100%;
+    height: 40%;
+    padding-left:  14%;
+    padding-right:  5%;
+    top: 25%;
+}
+
+.footer-left-container {
+    position: relative;
+    padding: 2%;
+    width: 30.33%;
+    height: 100%;
+}
+
+.footer-left-container h3{
+    
+    margin-bottom: 3%;
+    color: rgb(63, 61, 61);
+    font-weight: bolder;
+    text-decoration: line-through #2980B9 solid 4px;
+    font-size: x-large;
+ 
+}
+.footer-left-container p{
+    position: relative;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: grey;
+    font-size: 85%;
+}
+
+.footer-left-container .all-services {
+text-align: center;
+width: 60%;
+height: 30%;
+background-color: #2980B9;
+}
+
+.all-services-div  {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 45%;
+    top: 26%;
+    color: white;
+
+}
+
+.footer-left-container .all-services .arrow-right{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 30%;
+    top: 35%;
+
+}
+
+.footer-middle-container {
+    text-align: center;
+    position: relative;
+    width: 23.33%;
+    height: 100%;
+    left: 33.33%;
+    top: -100%;
+}
+
+.footer-middle-container p {
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: grey;
+    font-size: 85%;
+}
+
+
+
+.footer-right-container {
+    text-align: center;
+    position: relative;
+    width: 23.33%;
+    height: 100%;
+    left: 66.66%;
+    top:-200%;
+} 
+
+.footer-right-container p {
+    margin-bottom: 3%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: grey;
+    font-size: 85%;
+}

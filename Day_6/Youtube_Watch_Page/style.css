@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/*! Navigator-bar */
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+
+}
+
+#start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25%;
+}
+
+.drawer-btn {
+    font-size: 120%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.youtube-logo {
+    width: 35%;
+}
+
+#center {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+
+}
+
+.search-input {
+    height: 40px;
+    width: 70%;
+    border: 1px solid gray;
+    margin-left: 25px;
+    border-radius: 25px 0 0 25px;
+    padding-left: 20px;
+}
+
+.search-btn {
+    border: 1px solid gray;
+    height: 40px;
+    width: 10%;
+    border-radius: 0 25px 25px 0;
+    background: #f8f8f8;
+    border-left: none;
+}
+
+.search-btn i {
+    margin: 12px;
+}
+
+.record-btn {
+    height: 40px;
+    width: 10%;
+    background-color: #f8f8f8;
+    border: none;
+}
+
+.record-btn {
+    height: 40px;
+    width: 8%;
+    margin-left: 15px;
+    border-radius: 40px;
+}
+
+#end {
+    display: flex;
+    width: 25%;
+
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.setting-btn {
+    font-size: 150%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sign-in-btn-container {
+    display: flex;
+    align-items: center;
+    color: #1a5fb4;
+    ;
+    border: 1px solid #1a5fb4;
+    border-radius: 25px;
+    margin-left: 5%;
+    height: 30px;
+    font-size: smaller;
+
+}
+
+.sign-in-icon {
+    width: 050%;
+}
+
+
+/* .sign-in-btn-container .fa-user {
+    font-size: small; 
+    color:#1a5fb4;
+}
+ */
+
+
+
+/*!Main  container */
+.main-container {
+    display: flex;
+    /* background-color: aqua;
+ */
+
+}
+
+/*!Main left container */
+
+.main-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: greenyellow; */
+    width: 70%;
+    margin-left: 8%;
+
+}
+
+
+.channel-info {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.channel-info-left {
+    display: flex;
+    width: 60%;
+
+}
+
+.channel-info-left div {
+    width: 40%;
+}
+
+.subscribe-btn {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    border-radius: 25px;
+    height: 80%;
+    align-self: center;
+    border: none;
+    padding: 5px;
+}
+
+.channel-info-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    width: 50%;
+  
+
+}
+
+.channel-info-right div i {
+    color: black;
+    font-size: 0.8rem;
+
+}
+
+.like-dislike-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+    border-radius: 25px;
+    width: 40%;
+    height: 80%;
+}
+
+#like {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecebeb;
+    width: 70%;
+    height: 100%;
+    border-radius: 25px 0  0 25px;
+}
+
+
+#dislike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecebeb;
+    height: 100%;
+    width: 40%;
+    border-radius: 0 25px 25px 0;
+    border-left: 1px solid gray ;
+    
+}
+
+#share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecebeb;
+    width: 25%;
+    height: 80%;
+    border-radius: 26px;
+}
+
+#share-span {
+font-size: 10px;
+}
+
+
+/*! Video-description */
+
+.video-description-container {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ecebeb;
+    height: 50%;
+    border-radius: 10px;
+    margin-right: 25px;
+
+}
+
+.video-description-container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px
+}
+
+.keyword-tag {
+    color: #065FD4;
+    margin-left: 25px;
+}
+
+
+/*!Main Right container*/
+
+.main-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*     background-color: gold; */
+    width: 40%;
+}
+
+.mini-video {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.mini-video img {
+    width: 40%;
+    align-self: flex-start;
+    border-radius: 20px;
+
+}
+
+.mini-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    margin-left: 2%;
+    gap: 10px;
+
+}
+
+.mini-description p {
+    font-size: small;
+}

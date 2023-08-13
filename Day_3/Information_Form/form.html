@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="sign-up">Sign-up</h3>
+    <div class="container">
+        <form>
+            <legend class="legend"> Personal Details</legend> <br>
+              <label for="salutation" > Salutations </label>
+                 <select class="salutation" name="salutation" >
+                     <option value="--None--">--None--</option>
+                     <option value="HI">Hi !!</option>
+                     <option value="Whats up !!">Whats up !!</option>
+                 </select>
+            <br><br>
+                <label for="fname">First name :</label>
+                <input type="text" id="fname" name="fname" >
+            <br><br>
+                <label type="text" for="lname">Last name :</label>
+                <input id="lname" type="text" name="lname">
+            <br><br>
+                <label for="gender">Gender :</label>
+                <input type="radio" value="male" name="gender" checked>
+                <label for="male">Male</label>
+                <input type="radio" value="female" name="gender">
+                <label for="female">Female</label>
+            <br><br>
+                <label for="email">Email :</label> <br>
+                <input type="email" id="email" name="email" placeholder="Email@address.com">
+            <br><br>
+                <label for="birth-date">Date of Birth:</label><br>
+                <input type="date" id="birth-date" name="birth-date">
+            <br><br>
+            <label for="address">Address :</label> <br>     
+            <textarea cols="40" rows="10" placeholder=" 34, av. Abderrahmane Bentouila, hay Amal ,El Jadida"></textarea>
+            <br><br>
+            <button class="btn" >Submit</button>
+    </div>        
+</body>
+</html>

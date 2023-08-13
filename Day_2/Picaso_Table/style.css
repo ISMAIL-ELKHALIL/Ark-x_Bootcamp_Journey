@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    padding:  10% 35%;
+}
+
+.first-table{
+
+    text-align: center;
+}
+
+.second-table td ,.second-table table{
+
+    text-align: center;
+    border:1px rgb(22, 73, 22) solid;
+}

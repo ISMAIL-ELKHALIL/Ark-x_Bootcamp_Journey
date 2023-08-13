@@ -1,0 +1,310 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav-bar {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 5%;
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-bar-left-container,.nav-bar-right-container {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar-left-container {
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-bar-middle-container {
+    margin-bottom: -25px;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://shorturl.at/wBIK5");
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.first-section-items {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+
+}
+
+.first-section-headings {
+    text-align: center;
+    height: 40vh;
+  
+}
+
+
+#heading-1 {
+    color: white;
+    letter-spacing: 30px;
+    line-height: 5px;
+}
+
+#heading-2 {
+    font-size: 45px;
+    font-weight: bold;
+    word-spacing: 10px;
+    background-image: linear-gradient(to right, rgb(27, 14, 205), rgb(14, 243, 94));
+    background-clip: text;
+    -webkit-background-clip: text; /*? For Safari */
+    line-height: 45px;
+    color: transparent; /*? Make the text transparent so the gradient shows through */
+    margin-top: 5%;
+
+}
+
+#heading-3 {
+    font-size: 55px;
+    font-weight: bold;
+    word-spacing: 10px;
+    background-image: linear-gradient(to right, rgb(27, 14, 205), rgb(14, 243, 94));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 40px;
+    margin-top: 5%;
+}
+
+.first-section-btns {
+    display: flex;
+    justify-content: center;
+}
+
+#left-btn {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(233, 24, 24);
+    color: black;
+    border-radius: 25px;
+    border: 4px solid rgb(187, 28, 182);
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+#right-btn {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    border-radius: 25px;
+    border: 4px solid black;
+
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    background-color: linear-gradient(#13056e, #d6118f);
+    position: relative;
+    width: 100%;
+    min-height: 140vh;
+    background: linear-gradient(45deg, #d6118f,#13056e) fixed;
+    justify-content: center;
+}
+
+.sec-centre {
+    display: flex;
+    justify-content: center;
+    background-color: #ff0508;
+}
+
+.second-section-grid-box {
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+   /*  grid-template-rows: repeat(8, 100px); */
+    grid-auto-rows: minmax(100px,120px);
+    gap: 7px;
+    position: absolute;
+    top: -40px;
+}
+
+.item-1 {
+    background-image: url("https://shorturl.at/qH178");
+    background-size: cover;
+    background-position: center;
+    
+    grid-row: span 3;
+
+}
+
+.item-2 {
+    background-image: url("https://shorturl.at/lAEOV");
+    background-size: cover;
+    background-position: center;
+
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item-3 {
+    background-image: url("https://shorturl.at/adGI7");
+    background-size: cover;
+    background-position: center;
+
+    grid-row: span 2;
+}
+
+.item-4 {
+    background-image: url("https://shorturl.at/ehzDU");
+    background-size: cover;
+    background-position: center;
+
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item-5 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-column: span 3;
+}
+
+.item-6 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-column: span 2;
+}
+
+.item-7 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-row: span 2;
+
+}
+
+.item-8 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item-9 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+    
+    grid-row: span 4;
+
+}
+
+.item-10 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+
+.item-11 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+   grid-column: span 2;
+   grid-row:  span 2;
+
+}
+
+.item-12 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+    
+    grid-row: span 2 ;
+
+}
+
+.item-13 {
+    background-image: url("https://shorturl.at/amoHY");
+    background-size: cover;
+    background-position: center;
+
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.footer {
+    background: linear-gradient(90deg, #d6118f,#13056e) fixed;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-left {
+    margin-left: 2%;
+}
+
+.footer-center {
+    width: 40%;
+    background-color: #ff0508;
+
+}
+
+.footer-center .footer-center-list ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-center .footer-center-list ul li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: lighter;
+}
+
+
+
+.footer-right ul {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-right ul li {
+    font-weight: lighter;
+    margin-right: 20px;
+    list-style: none;
+
+}

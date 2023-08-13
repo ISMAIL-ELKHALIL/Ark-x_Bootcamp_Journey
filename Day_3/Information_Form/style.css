@@ -1,0 +1,111 @@
+body {
+    
+    background: linear-gradient(45deg, #0575E6, #00F260) fixed;
+    align-items:center;
+    text-align: center;
+    color: #152E4C;
+    }
+
+.sign-up {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+form {
+
+    padding-right:  40px;
+    align-items: center;
+}
+.container {
+    background: linear-gradient(45deg, #00F260, #0575E6) fixed;
+
+    margin-right:450px ;
+    margin-left:450px ;
+    border-radius: 50px;
+    padding: 25px 70px;
+}
+input[type="text"] ,input[type="email"] ,input[type="date"] {
+    width: 200px;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+
+
+select {
+    width: 200px;
+    height: 30px;
+    margin: 8px ;
+    border-radius: 15px;
+    text-align: center;
+ 
+}
+
+/* select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' viewBox='0 0 24 24' stroke='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9l6 6 6-6'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 12px;
+    padding-right: 30px;
+  }
+ */.legend {
+    font-size: medium;
+}
+
+textarea {
+    height:100px; /* Adjust the height for your specific needs */
+    overflow: auto; /* Enable scrolling when content exceeds the height */
+    resize: none;
+    width: 280px;
+    border-radius: 20px;
+
+}
+ .btn {
+
+  color: linear-gradient(45deg, #0575E6, #00F260);
+  border-radius: 10px;
+  background-color: linear-gradient(45deg, #0575E6, #00F260) ;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 4px 2px;
+ }
+
+ label  {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+.legend {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+ }
+
+/* Hide the default radio button */
+input[type="radio"]      {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    border:  solid #ccc;
+    outline: none;
+    cursor: pointer;
+  }
+  
+/* Customize the appearance of the radio button when it's checked */
+input[type="radio"]:checked {
+    background-color: #00F260; /* Change this to the desired color */
+    border-color: #3b91e8;     /* Change this to the desired color */
+  }
