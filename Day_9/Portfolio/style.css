@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #080808;
@@ -18,7 +21,7 @@ body {
     background-size: cover;
     background-size: cover;
     background-position: center;
-   
+
 }
 
 .container {
@@ -38,9 +41,11 @@ nav {
     opacity: 0.7;
     border-radius: 85px;
 }
+
 .logo:hover {
     background-color: #ff5500;
 }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -78,8 +83,9 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 {
-    font-size: 2.5em;
+    font-size: 60px;
     margin-top: 20px;
+    
 }
 
 .header-text h1 span {
@@ -123,7 +129,7 @@ nav ul li a:hover::after {
 .tab-titles {
     display: flex;
     margin: 20px 0 40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: 700;
 }
@@ -197,7 +203,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div i {
-    font-size: 60px;
+    font-size: 400%;
 }
 
 .services-list div a {
@@ -218,6 +224,7 @@ nav ul li a:hover::after {
 .services-list div:hover .fa-code {
     color: rgba(0, 0, 0, 0.726);
 }
+
 .services-list div:hover .fa-android {
     color: #3DDC84
 }
@@ -248,7 +255,8 @@ nav ul li a:hover::after {
     height: 100%;
     border-radius: 10%;
     display: block;
-    transition: 0.8s; /*? To make the ZoomOut(scale(1.2)) transition slowly */
+    transition: 0.8s;
+    /*? To make the ZoomOut(scale(1.2)) transition slowly */
 }
 
 .project:hover img {
@@ -257,7 +265,7 @@ nav ul li a:hover::after {
 }
 
 .project-description {
-    position    : absolute;
+    position: absolute;
     left: 0;
     bottom: 0;
     display: flex;
@@ -303,24 +311,24 @@ nav ul li a:hover::after {
 .show-more-btn {
     display: block;
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
     margin: 50px auto;
     border: 1px solid #fb7a39;
     border-radius: 15px;
     width: fit-content;
     padding: 14px 30px;
-    transition:background 0.8s;
+    transition: background 0.8s;
 }
 
 .show-more-btn:hover {
-    background:  #ff5500;
+    background: #ff5500;
 }
 
 /*! ---------------------CONTACT SECTION----------------------*/
 
 .contact-left {
     flex-basis: 35%;
- /*    background-color: cadetblue; */
+    /*    background-color: cadetblue; */
 }
 
 .contact-left p {
@@ -333,7 +341,7 @@ nav ul li a:hover::after {
 
 .social-media-icons {
     margin-top: 30px;
-    
+
 }
 
 .social-media-icons a i {
@@ -341,19 +349,20 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 150%;
     margin-right: 5%;
-    transition: 0.5s; 
+    transition: 0.5s;
     color: #141415;
 }
-.social-media-icons a  {
-     
-        text-decoration: none;
-    }
+
+.social-media-icons a {
+
+    text-decoration: none;
+}
 
 
-a:hover .fa-linkedin ,
+a:hover .fa-linkedin,
 a:hover .fa-x-twitter,
 a:hover .fa-telegram,
-a:hover .fa-whatsapp  {
+a:hover .fa-whatsapp {
     color: #ff5500;
     transform: translateY(-5px);
 }
@@ -364,7 +373,7 @@ a:hover .fa-whatsapp  {
     color: #fff;
     margin: 50px auto;
     border: 1px solid #fb7a39;
-    border-radius:  5px;
+    border-radius: 5px;
     padding: 14px 30px;
     background-color: #ff5500;
 
@@ -372,7 +381,7 @@ a:hover .fa-whatsapp  {
 
 
 .contact-right {
-    flex-basis: 60%;     
+    flex-basis: 60%;
 }
 
 
@@ -381,7 +390,8 @@ a:hover .fa-whatsapp  {
 
 }
 
-form input , form textarea {
+form input,
+form textarea {
     width: 100%;
     background-color: #262626;
     border: 0;
@@ -390,12 +400,12 @@ form input , form textarea {
     margin: 15px 0;
     font-size: 18px;
     border-radius: 5px;
-    color: #fff; 
+    color: #fff;
 }
 
 .submit-btn {
     text-decoration: none;
-    color: #fff; 
+    color: #fff;
     border: none;
     border-radius: 5px;
     padding: 14px 30px;
@@ -405,11 +415,11 @@ form input , form textarea {
 
 
 .copyright {
-width: 100%;
-text-align: center;
-margin-top: 1%;
-background-color: #262626;
-padding: 25px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    background-color: #262626;
+    padding: 25px 0;
 }
 
 .copyright p i:hover {
@@ -420,29 +430,20 @@ padding: 25px 0;
 /*!-------------------------Media Query------------------------------ */
 
 nav .fa-solid {
-    display: none; /*? To hide the dropdown button in lager screens*/
+    display: none;
+    /*? To hide the Drawer button in lager screens*/
 }
 
-@media only screen and (max-width:700px){
+/*? Mobile devices */
 
-    #header {
-        background-image: url('/images/phone-background.png');
-     
-    }
-    
-    .header-text {
-        margin-top: 100%;
-        font-size: 20px;
-    }
+@media (max-width:480px) {
 
-    .header-text h1 {
-        font-size: 30px;
-    }
-    
-
+    /* ? Make the Drawer button */
     nav .fa-solid {
-        display: block; /*? To hide the dropdown button in lager screens*/
+        display: block;
+        position: fixed;
         font-size: 25px;
+        right: 15px;
 
     }
 
@@ -450,27 +451,85 @@ nav .fa-solid {
         position: fixed;
         background: #ff5500;
         top: 0;
-        right:0;
+        right: 0px;
         width: 200px;
-        height: 100hv;
-        padding-top: 50px ;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        opacity: 0.9;
+        transition: 0.8s;
     }
+
 
     nav ul li {
         display: block;
-        margin: 25px;
+        margin: 50px;
+
+
     }
 
-    nav ul .fas {
+    nav ul .fa-solid {
         position: absolute;
-        top:25px;
-        left: 25px;
-        
+        top: 43px;
+        left: 15px;
+        cursor: pointer;
+        font-size: 30px;
     }
-    
-} 
+
+    /* ? change the background */
+
+    #header {
+        background-image: url('/images/phone-background.png');
+
+    }
+
+    .header-text {
+        margin-top: 90%;
+        font-size: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    .sub-title {
+        font-size: 1.5em;
+    }
+
+    .row {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
 
-@media (min-width: 768px) and (max-width: 992px)  { 
+    #contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60%;
 
- } 
+    }
+
+
+}
+
+
+
+
+
+/*? iPads, Tablets */
+@media (min-width: 481px) and (max-width: 714px) {
+
+      /* ... */
+
+}
+
+/*? Small screens, laptops  */
+    @media (min-width: 716px) and (max-width: 1024px) {
+        /* ... */
+    }
+
+    /*? Extra large devices (large desktops, 1200px and up)  */
+    @media (min-width: 1200px) {
+  /* ... */
+    }
