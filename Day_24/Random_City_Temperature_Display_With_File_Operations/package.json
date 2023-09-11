@@ -1,0 +1,14 @@
+{
+  "name": "random_city_temperature_display_with_file_operations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ismail",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0"
+  }
+}

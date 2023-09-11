@@ -14,4 +14,13 @@ fs.readdir("./", (err, files) => {
   if (err) console.log(err);
   else console.log(files);
 });
-    
+
+fs.mkdirSync("directoryToBeCreated");
+fs.readFileSync("./Path");
+fs.copyFileSync("src.txt", "dist.txt");
+fs.renameSync("oldName", "newName");
+fs.unlinkSync("fileToBeRemoved");
+fs.watchFile("fileToBeWatched", () => {
+  console.log("File has been changed");
+});
+//Day-Challenge

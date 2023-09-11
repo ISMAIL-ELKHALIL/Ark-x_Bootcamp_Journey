@@ -1,0 +1,1 @@
+The Temperature : New York is : 25.1 C°

@@ -1,5 +1,16 @@
 {
   "devDependencies": {
     "@types/node": "^20.5.7"
-  }
+  },
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "a package test",
+  "main": "index.js",
+  "type": "commonjs",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ismail",
+  "license": "ISC"
 }
