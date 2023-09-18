@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const express_validator_1 = require("express-validator");
+const body_parser_1 = require("body-parser");
+const products_controller_1 = require("../controllers/products_controller");
+const router = (0, express_1.Router)().use((0, body_parser_1.json)());
+router.get("/", products_controller_1.showProducts);
+router.get("/:id(\\d+)", products_controller_1.getProductById);
+router.post("/", (0, express_validator_1.body)("name").notEmpty().isString().isLength({ min: 3 }), (0, express_validator_1.body)("price").notEmpty().isNumeric(), products_controller_1.createProduct);
+router.patch("/:id");
+router.delete("/:id");
+exports.default = router;
