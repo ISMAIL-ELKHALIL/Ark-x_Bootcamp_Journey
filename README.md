@@ -21,21 +21,29 @@ Each day, I'll be taking on coding challenges and projects related to web develo
 
 - [Day 1](Day_1): Description of the project or challenge for Day 1.
 - [Day 2](Day_2): Description of the project or challenge for Day 2.
-- [Day 1](Day_3): Description of the project or challenge for Day 1.
-- [Day 2](Day_4): Description of the project or challenge for Day 2.
-- [Day 1](Day_5): Description of the project or challenge for Day 1.
-- [Day 2](Day_6): Description of the project or challenge for Day 2.
-- [Day 1](Day_7): Description of the project or challenge for Day 1.
-- [Day 2](Day_8): Description of the project or challenge for Day 2.
-- [Day 1](Day_9): Description of the project or challenge for Day 1.
-- [Day 2](Day_10): Description of the project or challenge for Day 2.
-- [Day 1](Day_11): Description of the project or challenge for Day 1.
-- [Day 2](Day_12): Description of the project or challenge for Day 2.
-- [Day 1](Day_13): Description of the project or challenge for Day 1.
-- [Day 2](Day_14): Description of the project or challenge for Day 2.
-- [Day 1](Day_15): Description of the project or challenge for Day 1.
-- [Day 2](Day_16): Description of the project or challenge for Day 2.
-
+- [Day 3](Day_3): Description of the project or challenge for Day 1.
+- [Day 4](Day_4): Description of the project or challenge for Day 2.
+- [Day 5](Day_5): Description of the project or challenge for Day 1.
+- [Day 6](Day_6): Description of the project or challenge for Day 2.
+- [Day 7](Day_7): Description of the project or challenge for Day 1.
+- [Day 8](Day_8): Description of the project or challenge for Day 2.
+- [Day 9](Day_9): Description of the project or challenge for Day 1.
+- [Day 10](Day_10): Description of the project or challenge for Day 2.
+- [Day 11](Day_11): Description of the project or challenge for Day 1.
+- [Day 12](Day_12): Description of the project or challenge for Day 2.
+- [Day 13](Day_13): Description of the project or challenge for Day 1.
+- [Day 14](Day_14): Description of the project or challenge for Day 2.
+- [Day 15](Day_15): Description of the project or challenge for Day 1.
+- [Day 16](Day_16): Description of the project or challenge for Day 2.
+- [Day 17](Day_17): Description of the project or challenge for Day 1.
+- [Day 18](Day_18): Description of the project or challenge for Day 2.
+- [Day 19](Day_19): Description of the project or challenge for Day 1.
+- [Day 20](Day_20): Description of the project or challenge for Day 2.
+- [Day 21](Day_21): Description of the project or challenge for Day 2.
+- [Day 22](Day_22): Description of the project or challenge for Day 2.
+- [Day 23](Day_23): Description of the project or challenge for Day 2.
+- [Day 24](Day_24): Description of the project or challenge for Day 2.
+- 
 ## Getting Started
 
 To view my projects and code solutions, simply navigate to the specific day's directory. Each directory contains its own README with details about the project, code explanations, and any relevant resources I used for learning.
