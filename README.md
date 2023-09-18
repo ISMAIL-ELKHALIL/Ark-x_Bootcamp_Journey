@@ -21,7 +21,20 @@ Each day, I'll be taking on coding challenges and projects related to web develo
 
 - [Day 1](Day_1): Description of the project or challenge for Day 1.
 - [Day 2](Day_2): Description of the project or challenge for Day 2.
-- ... (continue for other days)
+- [Day 1](Day_3): Description of the project or challenge for Day 1.
+- [Day 2](Day_4): Description of the project or challenge for Day 2.
+- [Day 1](Day_5): Description of the project or challenge for Day 1.
+- [Day 2](Day_6): Description of the project or challenge for Day 2.
+- [Day 1](Day_7): Description of the project or challenge for Day 1.
+- [Day 2](Day_8): Description of the project or challenge for Day 2.
+- [Day 1](Day_9): Description of the project or challenge for Day 1.
+- [Day 2](Day_10): Description of the project or challenge for Day 2.
+- [Day 1](Day_11): Description of the project or challenge for Day 1.
+- [Day 2](Day_12): Description of the project or challenge for Day 2.
+- [Day 1](Day_13): Description of the project or challenge for Day 1.
+- [Day 2](Day_14): Description of the project or challenge for Day 2.
+- [Day 1](Day_15): Description of the project or challenge for Day 1.
+- [Day 2](Day_16): Description of the project or challenge for Day 2.
 
 ## Getting Started
 
