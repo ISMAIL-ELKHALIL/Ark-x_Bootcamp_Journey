@@ -1,10 +1,13 @@
 # Ark-x Bootcamp Journey
 
-Welcome to my journey of learning and mastering web development through daily projects! This repository documents my progress as I tackle various web development challenges, improve my coding skills, and build a strong foundation in web technologies.
+Welcome to my journey of learning and mastering web development through daily projects!
+This repository documents my progress as I tackle various web development challenges,
+improve my coding skills, and build a strong foundation in web technologies.
 
 ## About
 
-In this repository, you'll find a collection of daily challenges, projects, and exercises that I'm working on as part of my web development bootcamp journey. Each day, I'll be adding new content, experimenting with different technologies, and sharing my learning experiences.
+In this repository, you'll find a collection of daily challenges, projects, and exercises that I'm working on as part of my web development bootcamp journey.
+Each day, I'll be adding new content, experimenting with different technologies, and sharing my learning experiences.
 
 ## Goals
 
