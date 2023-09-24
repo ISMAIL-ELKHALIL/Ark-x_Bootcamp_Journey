@@ -21,28 +21,45 @@ Each day, I'll be taking on coding challenges and projects related to web develo
 
 - [Day 1](Day_1): Description of the project or challenge for Day 1.
 - [Day 2](Day_2): Description of the project or challenge for Day 2.
-- [Day 3](Day_3): Description of the project or challenge for Day 1.
-- [Day 4](Day_4): Description of the project or challenge for Day 2.
-- [Day 5](Day_5): Description of the project or challenge for Day 1.
-- [Day 6](Day_6): Description of the project or challenge for Day 2.
-- [Day 7](Day_7): Description of the project or challenge for Day 1.
-- [Day 8](Day_8): Description of the project or challenge for Day 2.
-- [Day 9](Day_9): Description of the project or challenge for Day 1.
-- [Day 10](Day_10): Description of the project or challenge for Day 2.
-- [Day 11](Day_11): Description of the project or challenge for Day 1.
-- [Day 12](Day_12): Description of the project or challenge for Day 2.
-- [Day 13](Day_13): Description of the project or challenge for Day 1.
-- [Day 14](Day_14): Description of the project or challenge for Day 2.
-- [Day 15](Day_15): Description of the project or challenge for Day 1.
-- [Day 16](Day_16): Description of the project or challenge for Day 2.
-- [Day 17](Day_17): Description of the project or challenge for Day 1.
-- [Day 18](Day_18): Description of the project or challenge for Day 2.
-- [Day 19](Day_19): Description of the project or challenge for Day 1.
-- [Day 20](Day_20): Description of the project or challenge for Day 2.
-- [Day 21](Day_21): Description of the project or challenge for Day 2.
-- [Day 22](Day_22): Description of the project or challenge for Day 2.
-- [Day 23](Day_23): Description of the project or challenge for Day 2.
-- [Day 24](Day_24): Description of the project or challenge for Day 2.
+- [Day 3](Day_3): Description of the project or challenge for Day 3.
+- [Day 4](Day_4): Description of the project or challenge for Day 4.
+- [Day 5](Day_5): Description of the project or challenge for Day 5.
+- [Day 6](Day_6): Description of the project or challenge for Day 6.
+- [Day 7](Day_7): Description of the project or challenge for Day 7.
+- [Day 8](Day_8): Description of the project or challenge for Day 8.
+- [Day 9](Day_9): Description of the project or challenge for Day 9.
+- [Day 10](Day_10): Description of the project or challenge for Day 10.
+- [Day 11](Day_11): Description of the project or challenge for Day 11.
+- [Day 12](Day_12): Description of the project or challenge for Day 12.
+- [Day 13](Day_13): Description of the project or challenge for Day 13.
+- [Day 14](Day_14): Description of the project or challenge for Day 14.
+- [Day 15](Day_15): Description of the project or challenge for Day 15.
+- [Day 16](Day_16): Description of the project or challenge for Day 16.
+- [Day 17](Day_17): Description of the project or challenge for Day 17.
+- [Day 18](Day_18): Description of the project or challenge for Day 18.
+- [Day 19](Day_19): Description of the project or challenge for Day 19.
+- [Day 20](Day_20): Description of the project or challenge for Day 20.
+- [Day 21](Day_21): Description of the project or challenge for Day 21.
+- [Day 22](Day_22): Description of the project or challenge for Day 22.
+- [Day 23](Day_23): Description of the project or challenge for Day 23.
+- [Day 24](Day_24): Description of the project or challenge for Day 24.
+- [Day 25](Day_25): Description of the project or challenge for Day 25.
+- [Day 26](Day_26): Description of the project or challenge for Day 26.
+- [Day 27](Day_27): Description of the project or challenge for Day 27.
+- [Day 28](Day_28): Description of the project or challenge for Day 28.
+- [Day 29](Day_29): Description of the project or challenge for Day 29.
+- [Day 30](Day_30): Description of the project or challenge for Day 30.
+- [Day 31](Day_31): Description of the project or challenge for Day 31.
+- [Day 32](Day_32): Description of the project or challenge for Day 32.
+- [Day 33](Day_33): Description of the project or challenge for Day 33.
+- [Day 34](Day_34): Description of the project or challenge for Day 34.
+- [Day 35](Day_35): Description of the project or challenge for Day 35.
+- [Day 36](Day_36): Description of the project or challenge for Day 36.
+- [Day 37](Day_37): Description of the project or challenge for Day 37.
+- [Day 38](Day_38): Description of the project or challenge for Day 38.
+- [Day 39](Day_39): Description of the project or challenge for Day 39.
+- [Day 40](Day_40): Description of the project or challenge for Day 40.
+
 - 
 ## Getting Started
 
