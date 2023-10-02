@@ -6,7 +6,12 @@
   </head>
   <body>
     <h1>Welcome Mr <%=name%></h1>
-    <p>This is a secure area accessible only to authenticated users.</p>
+    <p>This is a secure area accessible only to <%=role%> users.</p>
+    
+    <%  if(role==="admin"){ %>
+      <a href="/protected">Protected</a>
+    <%}%>
+ 
     <a href="/login">Logout</a>
   </body>
 </html>
