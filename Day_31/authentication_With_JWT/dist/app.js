@@ -16,7 +16,7 @@ app.set("view engine", "ejs"); // Set the view engine to EJS
 app.use(express_1.default.json()); // Parse JSON data in request bodies
 app.use((0, body_parser_1.urlencoded)({ extended: true })); // Parse URL-encoded data in request bodies
 app.set("views", path_1.default.join(__dirname, "views")); // Set the views directory
-app.use(express_1.default.static(__dirname + "/public")); // Serve static files from the "public" directory
+app.use(express_1.default.static(__dirname + "/	public")); // Serve static files from the "public" directory
 app.use("/", routes_1.default); // Use the imported routes for routing
 app.listen(port, () => {
     console.log("Server is running on Port:", port); // Start the server and log the port it's listening on
