@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/67cc795b8e.js" crossorigin="anonymous"></script>
 </head>
 
@@ -134,7 +138,7 @@
                     <h2>Web Development</h2>
                     <br>
                     <p>Building small and medium web applications with React, custom plugins, features, animations, and coding interactive layouts.     </p><br>
-                    <a href="">Learn More</a>
+                    <a >Learn More</a>
                 </div>
 
                 <div>
@@ -143,7 +147,7 @@
                     <br>
                     <p>Building smart user interfaces and useful interactions, developing rich seamless Android applications  experience.
                     </p><br>
-                    <a href="">Learn More</a>
+                    <a>Learn More</a>
                 </div>
 
             </div>
@@ -164,7 +168,7 @@
                     <div class="project-description">
                         <h3>E-menu</h3>
                         <p>Enhance your guest experience with QR Mobile ordering solutions. Let your customers view your branded digital menu, place their orders and pay the bills to avoid errors and save time. </p>
-                        <a href="https://www.onlineemenu.com/online-food-ordering-system.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.onlineemenu.com/online-food-ordering-system.php" target="_blank" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="project">
@@ -174,7 +178,7 @@
                     <div class="project-description">
                         <h3>Chinelle Rojas</h3>
                         <p>Self-portrait photographer, logo designer, and entrepreneur with a very cool portfolio website. Enter in and you feel like you’ve stepped into her world.</p>
-                        <a href="https://www.chinellero.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.chinellero.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="project">
@@ -184,7 +188,7 @@
                     <div class="project-description">
                         <h3>Skullcandy</h3>
                         <p>Discover life at full volume with headphones, earbuds, speakers & more. Skullcandy is one-stop shop for new music, culture & audio.</p>
-                        <a><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://www.skullcandy.eu/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -291,5 +295,20 @@
       .catch(error => console.error('Error!', error.message))
   })
 
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth',
+        });
+      }
+    });
+  });
 
 </script>
