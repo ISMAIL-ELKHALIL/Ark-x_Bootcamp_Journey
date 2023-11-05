@@ -39,9 +39,9 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
-                    <i class="fa-solid fa-xmark" onclick="close_drawer()"></i>
+                    <i class="fa-solid fa-xmark  " onclick="close_drawer()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" id="bars-icon" onclick="open_drawer()"></i>
+                <i class="fa-solid fa-bars " id="bars-icon" onclick="open_drawer()"></i>
 
             </nav>
 
@@ -64,11 +64,11 @@
 
                 <div class="about-col-2">
 
-                    <h1 class="sub-title">About me </h1>
+                    <h1 class="sub-title">About me</h1>
                     <br>
-                    <p>Effective Student committed to learning, developing Web
+                    <p>Junior  Full Stack Developer committed to building, developing Web
                         and
-                        Application Development.<br><br>Self-directed and energetic with performance in both autonomous or
+                     Mobile   Applications.<br><br>Self-directed and energetic with performance in both autonomous or
                         collaborative environments.
                         <br><br>Fan of Football, outdoor activities, video games, and coding of course.
                     </p>
@@ -220,15 +220,15 @@
                         </a>
 
                     </div>
-                    <a href="" class="download-btn" download="/images/ISMAIL-ELKHALIL-CV.pdf">Download CV</a>
+                    <a href="./files/ISMAIL_ELKHALIL_CV.pdf" class="download-btn" download="./files/ISMAIL_ELKHALIL_CV.pdf">Download CV</a>
                 </div>
 
-                <div class="contact-right">
+                <div class="contact-right " >
                     <form name="submit-to-google-sheet">
                         <input type="text" name="name" placeholder="Your name" required>
-                        <input type="email" name="email" placeholder="Your email required" >
-                        <textarea name="    " rows="6" placeholder="Your Message" required></textarea>
-                        <button class="submit-btn" type="Submit" onclick="alert('Message Sent Successfully')">Submit</button>
+                        <input type="email" name="email" placeholder="Your email" required >
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button class="submit-btn" type="Submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -242,9 +242,6 @@
     </div>
 
 </body>
-
-</html>
-
 
 
 <!--!------------JavaScript Code--------------->
@@ -283,17 +280,7 @@
         bars_icon.style.opacity = "1";
     }
 
-    /*? This script is to sent the info of the form to a Google sheet*/
- 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYbJAsw2rH11A-3Jsn418_2jSdy-0hekPZiPKVTK4-7rIPimQtvcUUSM0Cn5TZwdmytA/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
+  // for smooth scrolling with  media query change 
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -311,4 +298,46 @@
     });
   });
 
+   
+
+
 </script>
+
+
+ 
+
+<script>
+
+    /* ! This script is to sent the info of the form to a Google sheet*/
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPGXVr2WX2QxFk1qfIxKW_FJ3Gq-SnC2l85O0RzzvK0jT7ERSIgEuGSO1NcPT3Mo54/exec';
+const form = document.forms['submit-to-google-sheet'];
+let messageCount = 0; // Initialize the message count
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  if (messageCount < 3) {
+    // Send the message if the limit has not been reached
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        alert('Message Sent Successfully');
+        console.log('Success!', response);
+        messageCount++; // Increment the message count
+      })
+      .catch(error => {
+        alert('Error sending message: ' + error.message);
+        console.error('Error!', error);
+      });
+  } else {
+    alert('Message limit exceeded. Please try again later.');
+  }
+});
+
+
+
+</script>
+
+</html>
+
+

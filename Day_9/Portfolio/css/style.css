@@ -393,11 +393,15 @@ a:hover .fa-whatsapp {
     border: 1px solid #fb7a39;
     border-radius: 5px;
     padding: 14px 30px;
-    background-color: #ff5500;
+      background-color: #ff5500a8;
+   
 
 }
 
-
+.download-btn:hover{
+  
+    background-color: #ff5500;
+} 
 .contact-right {
     flex-basis: 60%;
 }
@@ -427,9 +431,20 @@ form textarea {
     border: none;
     border-radius: 5px;
     padding: 14px 30px;
-    background-color: #ff5500;
+    background-color: #ff5500a8;
     cursor: pointer;
+    transition-delay: 100ms;
 }
+
+
+.submit-btn:hover{
+   
+    background-color: #ff5500;
+} 
+
+.submit-btn:active{
+    transform:translateY(-10px); 
+} 
 
 
 .copyright {
@@ -453,7 +468,7 @@ nav .fa-solid {
 
 /*!Smaller  Mobile devices */
 
-@media (max-width:299px) {
+@media (max-width:300px) {
     
     .container {
         padding: 10px 20%;
@@ -579,7 +594,7 @@ form textarea {
 
 /*! Mobile devices */
 
-@media (min-width:300px) and (max-width:488px) {
+@media (min-width:280px) and (max-width:488px) {
     
     .logo {
         width: 40px;
